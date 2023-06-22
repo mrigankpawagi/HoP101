@@ -1,0 +1,18 @@
+{
+    "theme_color": "#ff4294",
+    "background_color": "#ca1564",
+    "display": "fullscreen",
+    "scope": "/",
+    "start_url": "/",
+    "description": "Learn python",
+    "short_name": "HoP101",
+    "name": "HoP101",
+    "lang": "en-US",
+    "icons": [
+        {
+            "src": "logo.png",
+            "sizes": "500x500",
+            "type": "image/png"
+        }
+    ]
+}
