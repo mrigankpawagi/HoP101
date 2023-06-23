@@ -1,6 +1,6 @@
 {
-    "theme_color": "#ff4294",
-    "background_color": "#ca1564",
+    "theme_color": "#E91E63",
+    "background_color": "#ffffff",
     "display": "fullscreen",
     "scope": "/",
     "start_url": "/",
@@ -10,7 +10,7 @@
     "lang": "en-US",
     "icons": [
         {
-            "src": "logo.png",
+            "src": "images/logo.png",
             "sizes": "500x500",
             "type": "image/png"
         }
