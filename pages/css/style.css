@@ -70,3 +70,44 @@
     margin: auto;
     display: block;
 }
+#collapsible .item .body .resource{
+    padding: 10px 20px 10px 70px;
+    display: block;
+    width: 250px;
+    text-decoration: none;
+    border-radius: 4px;
+    margin: 5px 0;
+    position: relative;
+    border: 1px solid #e91e63;
+}
+#collapsible .item .body .resource.slides{
+    color: #fff;
+    background: #e91e63;
+    font-size: 1.5em;
+}
+#collapsible .item .body .resource.notes{
+    color: #e91e63;
+    background: #fff;
+}
+#collapsible .item .body .resource::before{
+    font-family: 'Material Symbols Outlined';
+    content: '\eaf0';
+    padding: 0 20px;
+    font-size: 1.5em;
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    display: flex;
+    vertical-align: middle;
+    align-items: center;
+}
+#collapsible .item .body .resource.slides::before{
+    content: '\eaf0';
+}
+#collapsible .item .body .resource.notes::before{
+    content: '\f1c6';
+}
+#collapsible .item .body .resource.notes .credits{
+    font-size: 0.8em;
+}
